@@ -1,0 +1,7 @@
+{
+  "name": "PermutaSalud",
+  "description": "Plataforma de movilidad profesional para personal de salud municipal, facilitando permutas de cargo a nivel regional y local.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

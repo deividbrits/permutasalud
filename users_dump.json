@@ -1,0 +1,89 @@
+[
+  {
+    "id": "QkMThHbeHq8kOg4cL0Lm",
+    "firstName": "juan ",
+    "lastName": "perez",
+    "email": "david.brito.ledesma@gmail.com",
+    "profession": "dentista",
+    "password": "$2b$10$sYEdkyJ8VqEygPSpSFCIgewyauXpz.35A51Da7lx/WTahavn51q9i",
+    "createdAt": {
+      "_seconds": 1777473284,
+      "_nanoseconds": 922000000
+    },
+    "profileData": {
+      "nombreCompleto": "juan perez",
+      "categoriaProfesional": "Categoría A (Médicos/Dentistas Especialistas)",
+      "profesion": "Odontólogo ",
+      "bienios": "13",
+      "comunaActual": "ñuñoa",
+      "centroSaludActual": "cesfam san juan",
+      "flexibilidadDestino": "comunas",
+      "comunaDestino_1": "Iquique",
+      "comunaDestino_2": "Alto Hospicio",
+      "comunaDestino_3": "Huara",
+      "comunaDestino_4": "Colchane",
+      "comunaDestino_5": "Mejillones"
+    },
+    "profileUpdatedAt": {
+      "_seconds": 1777473407,
+      "_nanoseconds": 589000000
+    },
+    "contractVerification": {
+      "status": "VERIFIED",
+      "reason": "El documento es un certificado que confirma el nombramiento de Don David Brito Ledesma como 'titular indefinido' en el cargo de Odontólogo, bajo la Ley 19.378 (Estatuto de Atención Primaria de Salud Municipal), perteneciente a la dotación de planta de funcionarios de la Atención Primaria de la Salud, específicamente en un CESFAM. Esto cumple con todos los criterios solicitados, ya que, aunque es un certificado, referencia una resolución de nombramiento válida.",
+      "fileUri": "Archivos locales no guardados. Activa Firebase Storage.",
+      "aiDetails": {
+        "isWorkContract": true,
+        "isHealthWorker": true,
+        "isPermanent": true,
+        "isPrimaryCare": true
+      },
+      "verifiedAt": {
+        "_seconds": 1777473574,
+        "_nanoseconds": 304000000
+      }
+    }
+  },
+  {
+    "id": "rQZ7C7PHeTwvijfELiNi",
+    "firstName": "David ",
+    "lastName": "Brito",
+    "email": "dabrito.dw24@gmail.com",
+    "password": "$2b$10$H.5TOhlnFIBoORRekXV0kO5xIe3ymPaAaU5qKs610.K4VelPskU2W",
+    "createdAt": {
+      "_seconds": 1776219093,
+      "_nanoseconds": 396000000
+    },
+    "profileData": {
+      "nombreCompleto": "David Andrés Brito Ledesma",
+      "categoriaProfesional": "Categoría A (Médicos/Dentistas Especialistas)",
+      "profesion": "Odontólogo",
+      "bienios": "13",
+      "comunaActual": "Iquique",
+      "comunaDestino_1": "Ñuñoa",
+      "comunaDestino_2": "Las Condes",
+      "comunaDestino_3": "Providencia",
+      "comunaDestino_4": "Peñalolén"
+    },
+    "profession": "Odontólogo",
+    "profileUpdatedAt": {
+      "_seconds": 1777001581,
+      "_nanoseconds": 522000000
+    },
+    "contractVerification": {
+      "status": "REJECTED",
+      "reason": "El documento es un 'CERTIFICADO' que atestigua y referencia un nombramiento anterior (Resolución N° 133/2.019), pero no constituye el contrato de trabajo o decreto de nombramiento en sí mismo. Sin embargo, cumple con los criterios de ser un funcionario de la salud (Odontólogo bajo Ley 19.378), con calidad contractual de 'titular indefinido' y perteneciente a la 'dotación de Planta de Funcionarios de la Atención Primaria de la Salud' (CESFAM Cirujano Aguirre).",
+      "fileUri": "Archivos locales no guardados. Activa Firebase Storage.",
+      "aiDetails": {
+        "isWorkContract": false,
+        "isHealthWorker": true,
+        "isPermanent": true,
+        "isPrimaryCare": true
+      },
+      "verifiedAt": {
+        "_seconds": 1777002702,
+        "_nanoseconds": 974000000
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Cerrado por completo: Todo el acceso debe pasar a través de la API en Node.js (authRoutes.ts)
+    // El SDK de Firebase Admin en el backend ignora estas reglas.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
