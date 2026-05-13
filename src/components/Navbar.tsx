@@ -60,6 +60,7 @@ const Navbar: React.FC = () => {
 
   const navLinks = [
     { name: 'Inicio', path: '/' },
+    { name: 'Requisitos', path: '/requisitos' },
     { name: 'Panel', path: '/dashboard' },
     { name: 'Mis Matches', path: '/matches' },
     { name: 'Perfil', path: '/profile' },

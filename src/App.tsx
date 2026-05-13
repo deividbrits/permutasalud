@@ -27,6 +27,7 @@ import ContactUs from './pages/ContactUs';
 import AdminDashboard from './pages/AdminDashboard';
 import ResetPassword from './pages/ResetPassword';
 import ProtectedRoute from './components/ProtectedRoute';
+import Requirements from './pages/Requirements';
 
 export default function App() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
             <Route path="/matches" element={<ProtectedRoute><Matches /></ProtectedRoute>} />
             <Route path="/profile" element={<ProtectedRoute><PersonalProfile /></ProtectedRoute>} />
             <Route path="/completar-perfil" element={<ProtectedRoute><CompleteProfile /></ProtectedRoute>} />
+            <Route path="/requisitos" element={<Requirements />} />
             <Route path="/como-funciona" element={<HowItWorks />} />
             <Route path="/sobre-nosotros" element={<AboutUs />} />
             <Route path="/login" element={<Login />} />

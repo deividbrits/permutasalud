@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
               <span className="hidden sm:inline">Admin</span>
             </Link>
           )}
-          <Link to="#" className="text-slate-400 hover:text-blue-600 transition-colors">Instagram</Link>
+          <Link to="https://www.instagram.com/permutasaludchile/" className="text-slate-400 hover:text-blue-600 transition-colors">Instagram</Link>
           <Link to="https://www.linkedin.com/in/david-brito-ledesma-67678b319" className="text-slate-400 hover:text-blue-600 transition-colors">LinkedIn</Link>
         </div>
       </div>
