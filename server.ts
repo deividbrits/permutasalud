@@ -24,12 +24,16 @@ async function startServer() {
 
   const allowedOrigins = process.env.ALLOWED_ORIGIN
     ? process.env.ALLOWED_ORIGIN.split(',')
-    : ['http://localhost:3000', 'http://localhost:5173'];
+    : ['http://localhost:3000', 'http://localhost:5173', 'https://permutasalud.onrender.com'];
+  
   app.use(cors({
     origin: (origin, callback) => {
-      // Allow requests with no origin (server-to-server, curl, Postman in dev)
-      if (!origin || allowedOrigins.includes(origin)) return callback(null, true);
-      callback(new Error('Not allowed by CORS'));
+      // Allow requests with no origin, or if origin is in the allowed list
+      if (!origin || allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+      // If not allowed, just return false instead of throwing an error to prevent 500 crashes on static assets
+      callback(null, false);
     },
     credentials: true,
   }));
